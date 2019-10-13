@@ -35,7 +35,8 @@ layout: default
 				for(var i =0; i<data.size; i++){
 					shopContents.concat("<tr><th>"+json[i][0]+"</th><th>"+json[i][1]+"</th><th>"+json[i][2]+"</th><th>"+json[i][3]+"</th><th>"+json[i][4]+"</th></tr>")
 				}
-				document.getElementById("shopContents").innerHtml = shopContents;
+				$("#shopContents").html(shopContents);
+				console.log(shopContents);
 			}) 
 			
 		}
