@@ -26,11 +26,16 @@ layout: default
 		function reLoadTable(){
 			selector = document.getElementsByName("shopSelector")[0];
 			console.log(selector.index);
-			$("#shopContents").empty()
-			data = $.getJSON("https://burnsci.github.io/stores/The Feys Belt - Asthor.json", function(data){console.log(data.responseJSON)}) 
-			for(var i =0; i<data.size; i++){
-				shop.innerHtml.append("<tr><th>"+data[i][0]+"</th><th>"+data[i][1]+"</th><th>"+data[i][2]+"</th><th>"+data[i][3]+"</th><th>"+data[i][4]+"</th></tr>")
-			}
+			data = $.getJSON("https://burnsci.github.io/stores/The Feys Belt - Asthor.json", function(data){
+				console.log(data.responseJSON);
+				$("#shopContents").empty();
+				json = data.responseJSON;
+				shop.innerHtml.append("<tr><th>Item</th><th>Description</th><th>Abilities</th><th>Price</th><th>Quantity</th></tr>");
+				for(var i =0; i<data.size; i++){
+					shop.innerHtml.append("<tr><th>"+json[i][0]+"</th><th>"+json[i][1]+"</th><th>"+json[i][2]+"</th><th>"+json[i][3]+"</th><th>"+json[i][4]+"</th></tr>")
+				}
+			}) 
+			
 		}
 	</script>
 
