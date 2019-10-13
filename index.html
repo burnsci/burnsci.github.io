@@ -28,7 +28,9 @@ layout: default
 		function processRequest(e) {
 	 		//add files to selector
 	 		if (xhr.readyState == 4 && xhr.status == 200) {
-	        	document.getElementByName("shopSelector");
+	        	selector = document.getElementByName("shopSelector");
+	        	console.log(e);
+	        	console.log(selector);
 	    	}
 		}
 	</script>
