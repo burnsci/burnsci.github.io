@@ -30,7 +30,7 @@ layout: default
 				console.log(data.responseJSON);
 				$("#shopContents").empty();
 				json = data.responseJSON;
-				shopContents = document.getElementById("shopContents").innerHtml;
+				shopContents = "";
 				shopContents.append("<tr><th>Item</th><th>Description</th><th>Abilities</th><th>Price</th><th>Quantity</th></tr>");
 				for(var i =0; i<data.size; i++){
 					shopContents.append("<tr><th>"+json[i][0]+"</th><th>"+json[i][1]+"</th><th>"+json[i][2]+"</th><th>"+json[i][3]+"</th><th>"+json[i][4]+"</th></tr>")
