@@ -13,6 +13,7 @@ layout: default
 <script>
 	var xhr = new XMLHttpRequest();
 	xhr.open('GET', "https://github.com/burnsci/burnsci.github.io/tree/master/stores", true);
+	xhr.send();
 	xhr.onreadystatechange = processRequest;
  
 	function processRequest(e) {
