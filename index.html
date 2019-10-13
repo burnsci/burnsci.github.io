@@ -27,7 +27,7 @@ layout: default
 	<script type="text/javascript">
 
 		$(document).ready( function () {
-		    $('#shopContents').DataTable();
+		    $('#shopContents').DataTable({data:$.getJSON("https://burnsci.github.io/stores/The Feys Belt - Asthor.json", function(data){console.log(data.responseText)})});
 		} );
 
 		function reLoadTable(){
