@@ -7,7 +7,7 @@ layout: default
 	<body>
 		<h1>Shop Front</h1>
 		<p>Use the drop down to select the shop you want to view</p>
-		<select name="shopSelector" onchange="reLoadTable()"> 
+		<select id="shopSelector" onchange="reLoadTable()"> 
 			<option></option>
 			<option>Feys Belt - Asthor</option>
 		</select>
@@ -24,7 +24,7 @@ layout: default
 	
 	<script type="text/javascript">
 		function reLoadTable(){
-			selector = document.getElementsByName("shopSelector")[0];
+			selector = document.getElementById("shopSelector");
 			console.log(selector.index);
 			data = $.getJSON("https://burnsci.github.io/stores/The Feys Belt - Asthor.json", function(data){
 				console.log(data.responseJSON);
