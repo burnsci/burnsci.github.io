@@ -26,26 +26,11 @@ layout: default
 		function reLoadTable(){
 			selector = document.getElementsByName("shopSelector")[0];
 			shop = document.getElementsByName("shopContents")[0];
+			console.log(selector);
+			console.log(shop);
 		}
 
-		function getJSONP(url, success) {
-
-		    var ud = '_' + +new Date,
-		        script = document.createElement('script'),
-		        head = document.getElementsByTagName('head')[0] 
-		               || document.documentElement;
-
-		    window[ud] = function(data) {
-		        head.removeChild(script);
-		        success && success(data);
-		    };
-
-		    script.src = url.replace('callback=?', 'callback=' + ud);
-		    head.appendChild(script);
-
-		}
-
-		$.getJSON("https://burnsci.github.io/stores/The Feys Belt - Asthor.json", function(data){console.log(data)}) 
+		$.getJSON("https://burnsci.github.io/stores/The Feys Belt - Asthor.json", function(data){console.log(data.responseText)}) 
 
 	</script>
 
