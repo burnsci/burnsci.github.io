@@ -10,6 +10,9 @@ layout: default
 		<select id="shopSelector" onchange="reLoadTable()"> 
 			<option></option>
 			<option value="The Feys Belt - Asthor.json">Feys Belt - Asthor</option>
+			<option value="The Grand Bazzar - The Mesa.json">The Grand Bazzar - The Mesa</option>
+			<option value="Shady Dealings - Ifdor.json">Shady Dealings - Ifdor</option>
+			<option value="High rock market - HighRock.json">High rock market - HighRock</option>
 		</select>
 		<table style="width:100%" id="shopContents">
 			<tr>
@@ -27,7 +30,7 @@ layout: default
 			selector = document.getElementById("shopSelector");
 			var url = "https://burnsci.github.io/stores/"+selector.value;
 			console.log(url);
-			data = $.getJSON("https://burnsci.github.io/stores/The Feys Belt - Asthor.json", function(data){
+			data = $.getJSON(url, function(data){
 				$("#shopContents").empty();
 				json = data;
 				shopContents = "<tr><th>Item</th><th>Description</th><th>Abilities</th><th>Price</th><th>Quantity</th></tr>";
