@@ -21,6 +21,7 @@ layout: default
 	
 	<script type="text/javascript">
 		var xhr = new XMLHttpRequest();
+		xhr.responseType = "json";
 		xhr.open('GET', "https://github.com/burnsci/burnsci.github.io/tree/master/stores", true);
 		xhr.send();
 		xhr.onreadystatechange = processRequest;
