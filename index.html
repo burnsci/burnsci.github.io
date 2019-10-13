@@ -30,8 +30,7 @@ layout: default
 				console.log(data.responseJSON);
 				$("#shopContents").empty();
 				json = data;
-				shopContents = "";
-				shopContents.concat("<tr><th>Item</th><th>Description</th><th>Abilities</th><th>Price</th><th>Quantity</th></tr>");
+				shopContents = "<tr><th>Item</th><th>Description</th><th>Abilities</th><th>Price</th><th>Quantity</th></tr>";
 				for(var i =0; i<data.size; i++){
 					shopContents.concat("<tr><th>"+json[i][0]+"</th><th>"+json[i][1]+"</th><th>"+json[i][2]+"</th><th>"+json[i][3]+"</th><th>"+json[i][4]+"</th></tr>")
 				}
