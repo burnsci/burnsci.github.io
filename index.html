@@ -26,12 +26,12 @@ layout: default
 
 		function reLoadTable(){
 			selector = document.getElementsByName("shopSelector")[0];
-			shop = document.getElementsById("shopContents");
-			console.log(selector);
+			shop = document.getElementById("shopContents");
+			console.log(selector.index);
 			console.log(shop);
 		}
 
-		$.getJSON("https://burnsci.github.io/stores/The Feys Belt - Asthor.json", function(data){console.log(data.responseText)}) 
+		$.getJSON("https://burnsci.github.io/stores/The Feys Belt - Asthor.json", function(data){console.log(data.responseJSON)}) 
 
 	</script>
 
