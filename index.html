@@ -26,7 +26,7 @@ layout: default
 		function reLoadTable(){
 			selector = document.getElementsByName("shopSelector")[0];
 			console.log(selector.index);
-			$.(#shopContents).empty()
+			$("#shopContents").empty()
 			data = $.getJSON("https://burnsci.github.io/stores/The Feys Belt - Asthor.json", function(data){console.log(data.responseJSON)}) 
 			for(var i =0; i<data.size; i++){
 				shop.innerHtml.append("<tr><th>"+data[i][0]+"</th><th>"+data[i][1]+"</th><th>"+data[i][2]+"</th><th>"+data[i][3]+"</th><th>"+data[i][4]+"</th></tr>")
