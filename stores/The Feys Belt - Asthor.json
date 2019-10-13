@@ -33,5 +33,12 @@
 		"Abilities":"When you fire this arrow add one to your roll to hit and one to your damage.",
 		"Price":"40gp",
 		"Quantity":"5"
+	},
+	{
+		"Item":"Ioun stone - Mastery",
+		"Description":"A small green prism. <i>Requires Attunement</i>",
+		"Abilities":"Mastery: while attuned to this stone your proficiency bonus increases by one.",
+		"Price":"14000gp",
+		"Quantity":"1"
 	}
 ]
