@@ -16,7 +16,7 @@
 	{
 		"Item":"Liar's Dagger",
 		"Description":"A dagger with a strange shimmer to the blade.",
-		"Abilities":"Contains 1d4 unreplenishable charges of the Silent Image spell (1st level)",
+		"Abilities":"Contains 3 unreplenishable charges of the Silent Image spell (1st level)",
 		"Price":"600gp",
 		"Quantity":"1"
 	},
