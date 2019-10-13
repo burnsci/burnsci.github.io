@@ -10,28 +10,28 @@
 		"Item":"Mana Potion",
 		"Description":"A small vial filled with a blue effervescent liquid.",
 		"Abilities":"Restores 2 levels of Spell slots",
-		"Price":"1200",
+		"Price":"1200gp",
 		"Quantity":"1"
 	},
 	{
-		"Item":"tfb3",
-		"Description":"3",
-		"Abilities":"3",
-		"Price":"3",
-		"Quantity":"3"
+		"Item":"Liar's Dagger",
+		"Description":"A dagger with a strange shimmer to the blade.",
+		"Abilities":"Contains 1d4 unreplenishable charges of the Silent Image spell (1st level)",
+		"Price":"600gp",
+		"Quantity":"1"
 	},
 	{
-		"Item":"tfb4",
-		"Description":"4",
-		"Abilities":"4",
-		"Price":"4",
-		"Quantity":"4"
+		"Item":"Potion of Climbing",
+		"Description":"The potion is separated into brown, silver, and gray layers resembling bands of stone. Shaking the bottle fails to mix the colors.",
+		"Abilities":"When you drink this potion, you gain a climbing speed equal to your walking speed for 1 hour. During this time, you have advantage on Strength (Athletics) checks you make to climb.",
+		"Price":"600gp",
+		"Quantity":"2"
 	},
 	{
-		"Item":"tfb5",
-		"Description":"5",
-		"Abilities":"5",
-		"Price":"5",
+		"Item":"Arrows +1",
+		"Description":"A plain arrow with a thin gold coil along its shaft.",
+		"Abilities":"When you fire this arrow add one to your roll to hit and one to your damage.",
+		"Price":"40gp",
 		"Quantity":"5"
 	}
 ]
