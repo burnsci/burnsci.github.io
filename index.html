@@ -25,9 +25,9 @@ layout: default
 	<script type="text/javascript">
 		function reLoadTable(){
 			selector = document.getElementById("shopSelector");
-			console.log(selector.index);
+			var url = "https://burnsci.github.io/stores/"+selector.value;
+			console.log(url);
 			data = $.getJSON("https://burnsci.github.io/stores/The Feys Belt - Asthor.json", function(data){
-				console.log(data.responseJSON);
 				$("#shopContents").empty();
 				json = data;
 				shopContents = "<tr><th>Item</th><th>Description</th><th>Abilities</th><th>Price</th><th>Quantity</th></tr>";
