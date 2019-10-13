@@ -3,6 +3,8 @@ layout: default
 ---
 <!DOCTYPE html>
 <html>
+	<link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.20/css/jquery.dataTables.css">
+	<script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/1.10.20/js/jquery.dataTables.js"></script>
 	<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
 	<body>
 		<h1>Shop Front</h1>
@@ -11,7 +13,7 @@ layout: default
 			<option>Feys Belt - Asthor</option>
 			<option></option>
 		</select>
-		<table style="width:100%" name="shopContents">
+		<table style="width:100%" id="shopContents">
 			<tr>
 			    <th>Item</th>
 			    <th>Description</th>
@@ -23,9 +25,14 @@ layout: default
 	</body>
 	
 	<script type="text/javascript">
+
+		$(document).ready( function () {
+		    $('#shopContents').DataTable();
+		} );
+
 		function reLoadTable(){
 			selector = document.getElementsByName("shopSelector")[0];
-			shop = document.getElementsByName("shopContents")[0];
+			shop = document.getElementsById("shopContents");
 			console.log(selector);
 			console.log(shop);
 		}
