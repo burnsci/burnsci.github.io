@@ -8,15 +8,29 @@ layout: default
 		<p>Use the drop down to select the shop you want to view</p>
 		<select name="shopSelector"> 
 		</select>
+		<table style="width:100%">
+			<tr>
+			    <th>Item</th>
+			    <th>Description</th>
+			    <th>Abilities</th>
+			    <th>Price</th>
+			    <th>Buy</th>
+			</tr>
+		</table>
 	</body>
+	
+	<script type="text/javascript">
+		var xhr = new XMLHttpRequest();
+		xhr.open('GET', "https://github.com/burnsci/burnsci.github.io/tree/master/stores", true);
+		xhr.send();
+		xhr.onreadystatechange = processRequest;
+	 
+		function processRequest(e) {
+	 		//add files to selector
+	 		if (xhr.readyState == 4 && xhr.status == 200) {
+	        	document.getElementByName("shopSelector");
+	    	}
+		}
+	</script>
+
 </html>
-<script>
-	var xhr = new XMLHttpRequest();
-	xhr.open('GET', "https://github.com/burnsci/burnsci.github.io/tree/master/stores", true);
-	xhr.send();
-	xhr.onreadystatechange = processRequest;
- 
-	function processRequest(e) {
- 		//add files to selector
-	}
-</script>
