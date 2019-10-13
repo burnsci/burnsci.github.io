@@ -6,7 +6,7 @@ layout: default
 	<body>
 		<h1>Shop Front</h1>
 		<p>Use the drop down to select the shop you want to view</p>
-		<select name="shopSelector"> 
+		<select name="shopSelector" onchange="reLoadTable"> 
 			<option>Feys Belt - Asthor</option>
 			<option></option>
 		</select>
@@ -24,7 +24,7 @@ layout: default
 	<script type="text/javascript">
 		var xhr = new XMLHttpRequest();
 		xhr.responseType = "json";
-		xhr.open('GET', "https://burnsci.github.io/stores", true);
+		xhr.open('GET', "https://burnsci.github.io/stores/The Feys Belt - Asthor.json", true);
 		xhr.send();
 		xhr.onreadystatechange = processRequest;
 	 
