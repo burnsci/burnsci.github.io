@@ -7,8 +7,10 @@ layout: default
 		<h1>Shop Front</h1>
 		<p>Use the drop down to select the shop you want to view</p>
 		<select name="shopSelector"> 
+			<option>Feys Belt - Asthor</option>
+			<option></option>
 		</select>
-		<table style="width:100%">
+		<table style="width:100%" name="shopContents">
 			<tr>
 			    <th>Item</th>
 			    <th>Description</th>
@@ -29,11 +31,37 @@ layout: default
 		function processRequest(e) {
 	 		//add files to selector
 	 		if (xhr.readyState == 4 && xhr.status == 200) {
-	        	selector = document.getElementsByName("shopSelector")[0];
+	        	
 	        	console.log(e);
 	        	console.log(selector.name);
 	    	}
 		}
+
+		function reLoadTable(){
+			selector = document.getElementsByName("shopSelector")[0];
+			shop = document.getElementsByName("shopContents")[0];
+		}
+
+		function getJSONP(url, success) {
+
+		    var ud = '_' + +new Date,
+		        script = document.createElement('script'),
+		        head = document.getElementsByTagName('head')[0] 
+		               || document.documentElement;
+
+		    window[ud] = function(data) {
+		        head.removeChild(script);
+		        success && success(data);
+		    };
+
+		    script.src = url.replace('callback=?', 'callback=' + ud);
+		    head.appendChild(script);
+
+		}
+
+		getJSONP('https://burnsci.github.io/stores/The Feys Belt - Asthor.json', function(data){
+    		console.log(data);
+		});  
 	</script>
 
 </html>
