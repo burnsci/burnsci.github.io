@@ -14,7 +14,7 @@ layout: default
 			    <th>Description</th>
 			    <th>Abilities</th>
 			    <th>Price</th>
-			    <th>Buy</th>
+			    <th>Quantity</th>
 			</tr>
 		</table>
 	</body>
@@ -22,7 +22,7 @@ layout: default
 	<script type="text/javascript">
 		var xhr = new XMLHttpRequest();
 		xhr.responseType = "json";
-		xhr.open('GET', "https://github.com/burnsci/burnsci.github.io/tree/master/stores", true);
+		xhr.open('GET', "https://burnsci.github.io/stores", true);
 		xhr.send();
 		xhr.onreadystatechange = processRequest;
 	 
