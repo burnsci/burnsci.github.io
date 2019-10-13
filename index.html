@@ -13,4 +13,9 @@ layout: default
 <script>
 	var xhr = new XMLHttpRequest();
 	xhr.open('GET', "https://github.com/burnsci/burnsci.github.io/tree/master/stores", true);
+	xhr.onreadystatechange = processRequest;
+ 
+	function processRequest(e) {
+ 		//add files to selector
+	}
 </script>
