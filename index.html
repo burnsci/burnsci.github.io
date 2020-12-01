@@ -36,7 +36,7 @@ layout: default
 				json = data;
 				shopContents = "<tr><th>Item</th><th>Description</th><th>Abilities</th><th>Price</th><th>Quantity</th></tr>";
 				for(var i =0; i<data.length; i++){
-					shopContents = shopContents+"<tr><th>"+json[i]['Item']+"</th><th>"+json[i]['Description']+"</th><th>"+json[i]['Abilities']+"</th><th>"+json[i]['Price']+"</th><th>"+json[i]['Quantity']+"</th></tr>";
+					shopContents = shopContents+"<tr><th>"+json[i]['Item']+"</th><th>"+json[i]['Description']+"</th><th style='font-size: 5px'>"+json[i]['Abilities']+"</th><th>"+json[i]['Price']+"</th><th>"+json[i]['Quantity']+"</th></tr>";
 				}
 				$("#shopContents").html(shopContents);
 				console.log(shopContents);
