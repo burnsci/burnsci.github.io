@@ -1,0 +1,142 @@
+[
+	{
+		"Item":"Sky Anchor Spear",
+		"Description":"This large spear was designed to hunt mountain-dwelling wyverns. (Requires attunement)",
+		"Abilities":" You gain a +1 bonus to attack and damage rolls made with this magic weapon. When you hit with a ranged attack using this weapon, you can speak its command word to create a magical chain that extends from the spear to a point on the ground within 5 feet of you. When you do, the spear remains lodged in the target for up to 1 minute. While the spear is lodged in a target, that target can't move farther away from the point, and at the end of each of its turns, the target is pulled up to 10 feet closer to the point. A creature greater than a large size category can't be pulled in this way. A creature can use its action to make a DC 18 Strength check, dislodging the spear from itself or another target within its reach on a success. When the spear is dislodged this way, it deals 1d8 piercing damage to the target as it's freed and is immediately pulled back to the point, at which point the magical chain disappears. You can dislodge the spear on your turn by speaking its command word again as a bonus action. Once this property has been used, it can't be used again until the next dawn.",
+		"Price":"12,000",
+		"Quantity":"1"
+	},
+	{
+		"Item":"The Pardoner",
+		"Description":"A fine silver greatsword with an inscription up the blade. 'Amnesty & Conviction'. (Requires attunement by a Paladin)",
+		"Abilities":"While holding this blade, your reach increases by 5 feet when using your Lay on Hands feature. Once on each of your turns when you expend a spell slot to use your Divine Smite feature on an attack made with this sword, you can choose one of the following effects to inflict on the target until the start of your next turn. - The target has disadvantage on the next attack roll it makes. - The target's speed is reduced by 10 feet. - The next time the target takes damage, it takes an additional 1d8 necrotic or radiant damage (your choice). - The next attack made against the target is made with advantage. - The target can't regain hit points.",
+		"Price":"7000",
+		"Quantity":"1"
+	},
+	{
+		"Item":"Doomsday Cookie",
+		"Description":"This black sugar paste cookie is made using a grim recipe passed down through generations of clerics devout to Kelemvor, the god of death",
+		"Abilities":"Inside this hollow cookie is an enchanted piece of blank paper whose writing is revealed upon breaking the cookie The writing on the paper attempts to predict the cause of death for the creature who opened it. When you open this cookie, roll a d20 and use the table below to determine the paper's prediction. Once a creature's fortune has been predicted this way, all future doomsday cookie papers will predict the same outcome for them. If a creature dies in a way foretold by the cookie (at your DM's discretion) the cookie's paper transforms into a scroll of revivify. This scroll can only be used on the creature whose passing it foretold. If the scroll is unused for 1 minute, it crumbles into dust. Regardless of its grim foretellings, the cookie itself is a delicious snack that is sweet, salty, and smoky. (Roll table here: https://bit.ly/3l9RpJm)",
+		"Price":"750",
+		"Quantity":"4"
+	},
+	{
+		"Item":"Amythest Gauntlets",
+		"Description":"These leather bracers are adorned with amythests and unique eye shaped buckles made of silver. (Requires attunement)",
+		"Abilities":"While wearing these bracers, you have immunity to the spell blindness. While wearing the bracers, you can use your action to cast polymorph on yourself, transforming into a Gazer. While you are in the form of the Gazer, you retain your Intelligence, Wisdom, and Charisma scores and have 30 hit points. The bracers can't be used this way again until the next dusk.",
+		"Price":"8250",
+		"Quantity":"1"
+	},
+	{
+		"Item":"Matrons Mug",
+		"Description":"This rustic stoneware mug is warm to the touch and exudes a feeling of comfort while held",
+		"Abilities":"You can speak its command word as an action to cause it to fill with a rich, creamy drink that tastes like chocolate. When you drink this beverage, it fills you with a rejuvenating and magical vigor that builds over the course of 1 minute. At the end of this minute, you can choose to recover one expended spell slot by spending a number of Hit Dice equal to twice the spell slot's level, up to a maximum of 5th level. Once the mug has created this beverage, it can't create it again until the next dawn.",
+		"Price":"2200",
+		"Quantity":"1"
+	},
+	{
+		"Item":"Wand of Necrosis",
+		"Description":"This gnarled, wooden branch has grown over one of the severed fingers of a powerful lich, creating a gruesome and deadly wand. (Requires attunement by Sorcerer, Warlock or Wizard.",
+		"Abilities":"The wand has 7 charges. If the wand has at least 1 charge remaining, you have resistance to necrotic damage while you hold it. While holding this wand, you can use an action to expend 1 or more of its charges to cast one of the following spells from it (save DC 15, attack bonus +7): blight (4 charges), finger of death (7 charges), inflict wounds (1 charge per spell level, plus 1 additional charge to make its range 30 feet), or ray of enfeeblement (2 charges). The wand regains 1d6 + 1 expended charges daily at dawn. If you expend the wand's last charge, roll a d20. On a roll of 5 or less the wand is destroyed and turns to dust. On a 1, the wand explodes, destroying the wand in a flash of green light that duplicates the effect of the finger of death spell, targeting only you. If you become a zombie as a result of this effect, you are under the command of the nearest lich within 100 miles of you, if any.",
+		"Price":"17000",
+		"Quantity":"1"
+	},
+	{
+		"Item":"Hat of the Sanguine Coven",
+		"Description":"This red hat is worn by a coven of witches known for their familiarity with death's doorstep. (requires attunement by a sorcerer, warlock, or wizard)",
+		"Abilities":"While wearing this hat, you can cast the chill touch spell at will. Whenever you have 0 hit points while wearing this hat, you gain the following benefits: - You stabilize or die after your sixth successful or failed death saving throw, instead of your third, but only succeed on the saving throw on a roll of 15 or higher. - When you roll a death saving throw, you can immediately cause the hat to cast the chill touch spell (+5 to hit, no action required) against a creature within 30 feet of you that isn't behind total cover or heavily obscured. If it hits, you gain a +5 bonus to the saving throw.",
+		"Price":"4675",
+		"Quantity":"1"
+	},
+	{
+		"Item":"Tyrannosaurus Axe",
+		"Description":"This bone-carved greataxe can channel the might of a rampaging tyrannosaurus rex. (Requires attunement)",
+		"Abilities":"You gain a +2 bonus to attack and damage rolls made with this magic weapon. While holding the axe, you can use a bonus action to rampage. While rampaging, you can move through the space of any creature of your size or smaller. When you move through a creature's space in this way while rampaging, your movement doesn't provoke opportunity attacks from that creature for the rest of the turn. Once on each of your turns while rampaging, you can force a creature whose space you move through in this way to make a DC 15 Strength or Dexterity saving throw (its choice). On a failed save, that creature takes 1d6 bludgeoning damage and is knocked prone. In addition, while you're rampaging, your weapon attacks with this weapon score a critical hit against objects, structures, and prone creatures on a roll of 19 or 20. Your rampage lasts for up to 1 minute. It ends early if you don't move through a hostile creature's space on your turn or if you drop to 0 hit points. This property of the axe can be used once per day and it regains its use daily at dawn.",
+		"Price":"22000",
+		"Quantity":"1"
+	},
+	{
+		"Item":"Storms Eye Shield",
+		"Description":"Emblazoned on the face of this round shield is a cyclone design that magically swirls based on the likelihood and proximity of thunderstorms. (Requires attunement)",
+		"Abilities":"While holding this shield, you have resistance to lightning damage. When you take lightning damage from a hostile source while holding this shield, you can use your reaction to cast the thunderwave spell (save DC 15) from it. This property can't be used again until the next dawn. In addition, while the shield is flat on the ground, you can perform a 1 minute ritual to cast the augury spell from it. When you do, the omens are represented by how the cyclone's design changes: - Calm clouds, for good results. - Roiling clouds, for bad results. - A flash of lightning, for both good and bad results. - Nothing, for results that aren't especially good or bad. Once this property of the shield has been used, it can't be used again until it's been in the presence of another thunderstorm for at least 1 hour.",
+		"Price":"6000",
+		"Quantity":"1"
+	},
+	{
+		"Item":"Earring of the climber",
+		"Description":"An earring of a small humanoid figure climbing up the wearers earlobe. There are three small Jet beads dangling from it.",
+		"Abilities":"When wearing the earring, whenever you make a Strength(Atheltics) or Dexterity(Acrobatics) check to climb something, count any roll less than 10 as a 10.",
+		"Price":"1750",
+		"Quantity":"1"
+	},
+	{
+		"Item":"Sir Varion's Mantle",
+		"Description":"This sturdy, waterproof riding cape once belonged to Sir Varion, a famed knight known for his charm and eccentricity.",
+		"Abilities":"While wearing this cape, you can spend 10 minutes to cast the find steed spell from it. When you do, the summoned steed is in the form of a purple ethereal riding horse. The steed remains for the duration or until your attunement to the mantle ends. When the steed drops to 0 hit points, this property can't be used again until 2 days have passed. In addition, while you're mounted, you have advantage on Charisma (Persuasion) checks.",
+		"Price":"3500",
+		"Quantity":"1"
+	},
+	{
+		"Item":"Frostburn Spear",
+		"Description":"This magic spear harnesses both ice and fire to duplicate the natural destructive force of a remorhaz.(Requires attunement)",
+		"Abilities":"Immediately after you throw the spear and it hits or misses a target, it flies back to your hand. While holding the spear, it becomes covered in icicles and sheds bright light in a 20-foot radius and dim light for an additional 20 feet. When you hit with an attack using this magic weapon, the target takes an extra 1d6 cold damage. You can speak its command word as a bonus action to cause the ice to melt and be replaced with flames, causing the bonus damage to become fire damage instead. You can speak the command word again to extinguish the flames and cause the ice to regrow from the spear, turning the bonus damage to cold damage once more. The ice or flames remain until you drop or stow the spear. While the spear is covered in ice, you have resistance to fire damage. While it's covered in flames, you have resistance to cold damage. In addition, while holding the spear, you can use an action to cast the fire shield spell from it. This version of the spell has a range of 30 feet, instead of self, and can target any creature you can see within range. Once this property of the spear has been used, it can't be used again until the next dawn.",
+		"Price":"19500",
+		"Quantity":"1"
+	},
+	{
+		"Item":"Bulette Bulwark",
+		"Description":"This leather-wrapped shield was made from the armored body of a bulette and still retains some of its natural properties. (Requires attunement)",
+		"Abilities":"While holding this shield, you have a +1 bonus to AC. This bonus is in addition to the shield's normal bonus to AC. In addition, the shield has 4 charges and regains 1d3 + 1 expended charges daily at dawn. While holding the shield, you can use a bonus action to speak the shield's command word and expend 1 of its charges. When you do, you gain tremorsense out to a range of 30 feet. This effect lasts as long as you concentrate (as if concentrating on a spell), to a maximum of 1 minute, or until you drop or stow the shield.",
+		"Price":"8000",
+		"Quantity":"1"
+	},
+	{
+		"Item":"Forecaster's Cloak",
+		"Description":"This warm, fur-lined cloak creates illusory representations of the impending weather.",
+		"Abilities":"While wearing this cloak, you can use an action to open it and speak its command word to create a harmless, sensory effect within the cloak that represents what the weather will be at your location for the next 8 hours. This effect persists for 1 minute or until you close the cloak.",
+		"Price":"800",
+		"Quantity":"1"
+	},
+	{
+		"Item":"Arborguard Shield",
+		"Description":"This massive wooden shield was made using the bark of an ancient treant. (Requires attunement)",
+		"Abilities":"While holding it, you have a +1 bonus to AC. This bonus is in addition to the shield's normal bonus to AC. While holding this shield, you can speak its command word as an action to create a wall of up to twelve trees on a solid surface within 120 feet of you. Each tree is 5 feet across at its base, up to 20 feet tall, and must be contiguous with another tree. Alternatively, you can create a ringed wall of trees up to 25 feet in diameter centered on your space. The trees grow tightly next to each other, preventing movement between them and providing total cover to anything behind them. A tree only grows a canopy if there is room for it. If the wall cuts through a creature's space when it appears, the creature within its area is pushed to one side of the wall and must make a DC 16 Dexterity saving throw. On a failed save, the creature takes 8d6 bludgeoning or piercing damage (your choice), or half as much damage on a successful save. The wall is an object that can be damaged and thus breached. Each tree has AC 13, 20 hit points, and is vulnerable to fire damage. A tree disappears when it drops to 0 hit points or when the effect ends. While you're within 30 feet of the wall, you can see through a tree's space (no action required) using your senses. When you make a melee weapon attack while within 30 feet of one or more of the trees, you can make the attack as if you were in one of the trees' spaces. When you do, the tree magically forms a wooden copy of you and any weapon you're holding to make the attack: duplicating any of its effects. The wall lasts as long as you concentrate (as if concentrating on a spell), to a maximum of 1 minute, until it's dispelled by a dispel magic spell of 6th-level or higher, or until you are no longer holding the shield. Once this property of the shield has been used, it can't be used again until the next dawn.",
+		"Price":"14750",
+		"Quantity":"1"
+	},
+	{
+		"Item":"Whirlpool Dart",
+		"Description":"This dart feels cold and hefty in the hand, but flies effortlessly when thrown.",
+		"Abilities":"As an action, you can throw this dart at a point within 20 feet of you and speak its command word to cause it to create a wild, spiraling whirlpool in a 15-foot-radius, 10-foot-high cylinder centered on that point. Each creature in the area excluding you must make a DC 13 Strength saving throw. On a failed save, a creature takes 4d4 bludgeoning damage and is pulled up to 15 feet toward the center of the cylinder. On a successful save, a creature takes half as much damage and isn't pulled. In addition, unsecured objects that are completely within the cylinder are automatically pulled 15 feet toward the center by this effect, and all nonmagical flames within the cylinder are extinguished. The dart's property can't be used again until the next dawn. In the meantime, the dart can still be used as a magic weapon.",
+		"Price":"2150",
+		"Quantity":"1"
+	},
+	{
+		"Item":"Cleaning Cube",
+		"Description":"This Tiny, sentient piece of an enchanted gelatinous cube is harmlessly soapy, instead of acidic, and enjoys cleaning the surfaces it travels across. ",
+		"Abilities":"When found, the cleaning cube is a dehydrated, 2-inch cube. While dehydrated, the cube is inanimate and its weight is negligible. You can place the dehydrated cube in 1 or more gallons of water as an action, causing it to animate and grow in size to become a 1-foot cube that weighs 6 pounds. The rehydrated cube moves slowly while animated in this way, methodically cleaning objects and surfaces it comes into contact with. The cube remains hydrated for up to 8 hours, but can be squeezed as an action (as if it were a sponge) to dehydrate it again early. The cleaning cube is considered a magical object and is not a creature. It has a speed of 1 foot and can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check. It has AC 10, 10 hit points, and resistance to all damage. The cube dehydrates when it drops to 0 hit points, but regains all its hit points when hydrated again. Sentience. The cleaning cube is a sentient unaligned item with an Intelligence of 1, a Wisdom of 6, and a Charisma of 1. It has hearing and blindsight out to a range of 60 feet. It can't speak or read, but obeys your commands as best as it can understand them. Personality. The cleaning cube is happiest finding and dissolving dirt and other grime, and enjoys the feeling of moving across clean, polished surfaces. It doesn't concern itself with combat, preferring to continue its cleaning instead of involving itself in confrontation. If the cube finds a stray coin, gemstone, or other similar small item out of place while it cleans, it will absorb and clean the item until it's removed by a creature as an action or until it becomes dehydrated once again.",
+		"Price":"2500",
+		"Quantity":"3"
+	},
+	{
+		"Item":"Turtle Brooch",
+		"Description":"This gold and amber brooch resembles a turtle that's been flipped on its back.",
+		"Abilities":"While you're wearing it, standing up from being prone costs 5 feet less of your movement (to a minimum of 5 feet).",
+		"Price":"1200",
+		"Quantity":"1"
+	},
+	{
+		"Item":"Starmetal Sliver",
+		"Description":"This slim blade was forged using strange, unearthly metals from a meteorite. (Requires attunement)",
+		"Abilities":"When you use an action to toss this magic dagger into the air, it orbits your body at a distance of 1d3 feet. Another creature can use an action to grasp the dagger to separate it from you, either by making a successful attack roll against AC 24 or a successful DC 24 Dexterity (Acrobatics) check. You can use an action to seize and either wield or stow the dagger. When you take the Attack action while the dagger is orbiting you, you can use a bonus action to cause the dagger to attack a target within 10 feet of you. The dagger uses your attack roll and ability score modifier to damage rolls. Immediately after the attack, the dagger returns to orbit you. In addition, the dagger creates a small gravitational field that wards off harm. While the dagger orbits you, when you are hit by a ranged weapon attack, the damage you take from the attack is reduced by 1d10 + 4. If the damage is reduced to 0, the missile slows to a stop without hitting you and falls to the ground at your feet.",
+		"Price":"11500",
+		"Quantity":"1"
+	},
+	{
+		"Item":"Myceliaweave Armor",
+		"Description":"This naturally-sourced armor is interwoven with fibers and caps from a resilient strain of violet fungus that grows when exposed to rejuvenating magic. (Requires attunement)",
+		"Abilities":" While wearing this armor, your Constitution score increases by 2, to a maximum of 20, and whenever a spell or magical effect causes you to regain hit points, you also gain a number of temporary hit points equal to half the number of hit points you recover, up to a maximum of 15 temporary hit points. While you have temporary hit points in this way, you also have resistance to necrotic damage. Curse. Once you don and attune to this magic armor, you can't doff it unless you are targeted by the remove curse spell or you die: a side effect of the violet fungus' magical and parasitic effects. When your attunement to the armor ends, your Constitution score is reduced by 2 (to a minimum score of 1) until 2d6 + 6 days have passed or until you attune to the armor again.",
+		"Price":"9500",
+		"Quantity":"1"
+	}
+]
